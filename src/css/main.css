@@ -1,0 +1,60 @@
+body {
+  background: #173d85;
+  background: linear-gradient(to right, #173d85, #5f9676);
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.vertical-nav {
+  min-width: 13rem;
+  width: 13rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  margin-left: 15px;
+  color: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.page-content {
+  width: calc(100% - 13rem);
+  margin-left: 13rem;
+  transition: all 0.4s;
+}
+
+.page-content.mobile {
+  width: 100%;
+  transition: all 0.4s;
+  margin-left: 0;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.main {
+  position: relative;
+  animation: 1.3s ease-out 0s 1 slideInFromLeft;
+  text-align: center;
+  z-index: -1;
+  color: aliceblue;
+}
