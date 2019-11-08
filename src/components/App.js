@@ -13,17 +13,15 @@ import Main from "./Main";
 
 //Redux
 import { connect } from "react-redux";
-import { getWidth, getHeigth, isMobile } from "../actions";
+import { getWidth, isMobile, isHidden } from "../actions";
 
 class App extends React.Component {
   state = { width: 0, heigth: 0 };
 
   updateDimensions = () => {
-    let w, h;
+    let w;
     w = window.innerWidth;
-    h = window.innerHeight;
     this.props.getWidth(w);
-    this.props.getHeigth(h);
     this.props.isMobile(w);
   };
 
@@ -32,16 +30,15 @@ class App extends React.Component {
     window.addEventListener("resize", this.updateDimensions);
   }
 
-  componentWillUnmount() {
-    window.addEventListener("resize", this.updateDimensions);
-  }
   render() {
     const { width } = this.props.window;
     let mobile = "";
     if (width < 500) {
       mobile = "mobile";
+      this.props.isHidden("hidden");
     } else {
       mobile = "";
+      this.props.isHidden("");
     }
     return (
       <BrowserRouter>
@@ -65,5 +62,5 @@ const mapStateToProps = state => {
 
 export default connect(
   mapStateToProps,
-  { getWidth, getHeigth, isMobile }
+  { getWidth, isMobile, isHidden }
 )(App);

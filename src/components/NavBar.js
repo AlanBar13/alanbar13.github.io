@@ -3,26 +3,36 @@ import { Link } from "react-router-dom";
 
 //Redux
 import { connect } from "react-redux";
+import { isHidden } from "../actions";
 
 class NavBar extends React.Component {
-  render() {
-    const { width } = this.props.window;
-    let hidden = "";
-    if (width < 500) {
-      hidden = "hidden";
-    } else {
-      hidden = "";
+  componentDidMount() {
+    if (this.props.mobile.m) {
+      this.props.isHidden("hidden");
     }
+  }
+  hiddenHam() {
+    if (this.props.mobile.m) {
+      return "";
+    } else {
+      return "hidden";
+    }
+  }
+  render() {
+    let ham = this.hiddenHam();
     return (
       <div>
-        <div className="py-4 px-3 hamburger">
+        <div className={`py-4 px-3 hamburger ${ham}`}>
           <i
             className="fas fa-bars"
             style={{ color: "aliceblue" }}
-            onClick={() => (hidden = "")}
+            onClick={() => this.props.isHidden("")}
           ></i>
         </div>
-        <div className={`vertical-nav bg-white ${hidden}`} id="sidebar">
+        <div
+          className={`vertical-nav bg-white ${this.props.mobile.hidden}`}
+          id="sidebar"
+        >
           <div className="py-4 px-3 mb-4 bg-light">
             <div className="media d-flex align-items-center">
               <Link to="/">
@@ -36,7 +46,7 @@ class NavBar extends React.Component {
               <div className="media-body">
                 <h4 className="m-0">Alan Bardales</h4>
                 <p className="font-weight-light text-muted mb-0">
-                  Ingeniero en tecnologías electrónicas
+                  Ingeniero en Tecnologías Electrónicas
                 </p>
               </div>
             </div>
@@ -54,6 +64,7 @@ class NavBar extends React.Component {
               <Link
                 to="/formacion"
                 className="nav-link text-dark font-italic bg-light"
+                onClick={() => this.props.isHidden("")}
               >
                 Formación
               </Link>
@@ -80,12 +91,18 @@ class NavBar extends React.Component {
           </p>
           <div className="mb-4 bg-white info">
             <ul className="nav flex-column bg-white mb-5">
-              <li className="nav-item" style={{ fontSize: 12 }}>
+              <li
+                className="nav-item"
+                style={{ fontSize: 20, textAlign: "center" }}
+              >
                 <div className="nav-link text-dark bg-white">
                   <i className="fas fa-mobile-alt"></i> 4423977484
                 </div>
               </li>
-              <li className="nav-item" style={{ fontSize: 12 }}>
+              <li
+                className="nav-item"
+                style={{ fontSize: 14, textAlign: "center" }}
+              >
                 <div className="nav-link text-dark bg-white">
                   <i className="fas fa-envelope"></i>{" "}
                   <a href="mailto:alan.g.bardales@gmail.com">
@@ -93,7 +110,10 @@ class NavBar extends React.Component {
                   </a>
                 </div>
               </li>
-              <li className="nav-item" style={{ fontSize: 25 }}>
+              <li
+                className="nav-item"
+                style={{ fontSize: 25, textAlign: "center" }}
+              >
                 <div className="nav-link text-dark bg-white">
                   <a
                     href="https://www.facebook.com/alan.bardales"
@@ -107,8 +127,8 @@ class NavBar extends React.Component {
                   >
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href="https://twitter.com/" className="icon">
-                    <i className="fab fa-twitter-square"></i>
+                  <a href="https://github.com/AlanBar13" className="icon">
+                    <i className="fab fa-github-square"></i>
                   </a>
                   <a href="/AlanCV_EN_2019.pdf" className="icon">
                     <i className="fas fa-file-pdf"></i>
@@ -125,11 +145,12 @@ class NavBar extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    window: state.window
+    window: state.window,
+    mobile: state.mobile
   };
 };
 
 export default connect(
   mapStateToProps,
-  {}
+  { isHidden }
 )(NavBar);

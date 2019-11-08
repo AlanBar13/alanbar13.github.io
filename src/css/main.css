@@ -58,3 +58,9 @@ body {
   z-index: -1;
   color: aliceblue;
 }
+
+[className*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}

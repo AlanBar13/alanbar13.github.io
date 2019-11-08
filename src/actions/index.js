@@ -15,3 +15,7 @@ export const isMobile = width => dispatch => {
   }
   dispatch({ type: "IS_MOBILE", payload: mobile });
 };
+
+export const isHidden = param => dispatch => {
+  dispatch({ type: "IS_HIDDEN", payload: param });
+};
