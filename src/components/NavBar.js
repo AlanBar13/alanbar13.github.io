@@ -36,7 +36,7 @@ class NavBar extends React.Component {
               <div className="media-body">
                 <h4 className="m-0">Alan Bardales</h4>
                 <p className="font-weight-light text-muted mb-0">
-                  Ingeniero en Tecnologias Electronicas
+                  Ingeniero en tecnologías electrónicas
                 </p>
               </div>
             </div>

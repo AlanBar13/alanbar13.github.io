@@ -15,15 +15,15 @@ class Main extends React.Component {
 
           <div className="row justify-content-center">
             <h2>
-              "Ingenierio, entusiasta de la tecnologia, los conciertos y la
-              musica"
+              "Ingeniero, entusiasta de la tecnología, los conciertos y la
+              música"
             </h2>
           </div>
           <div className="row justify-content-center">
             <h3>Resumen:</h3>
             <p>
-              Una persona apasionada de la tecnologia siempre buscando nuevos
-              retos y conocimientes que ayuden a su meta maxima. La meta que
+              Una persona apasionada de la tecnología siempre buscando nuevos
+              retos y conocimientos que ayuden a su meta máxima. La meta que
               esta en su mente es poder crear y desarrollar sistemas que ayuden
               a la gente en su vida diaria.
             </p>
