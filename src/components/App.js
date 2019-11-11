@@ -43,7 +43,14 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <NavBar />
-        <div className={`page-content ${mobile}`}>
+        <div
+          className={`page-content ${mobile}`}
+          onClick={() => {
+            if (mobile === "mobile") {
+              this.props.isHidden("hidden");
+            }
+          }}
+        >
           <Route path="/" exact component={Main}></Route>
           <Route path="/formacion" component={Formation}></Route>
           <Route path="/acerca" component={About}></Route>

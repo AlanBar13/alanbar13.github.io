@@ -59,6 +59,11 @@ body {
   color: aliceblue;
 }
 
+.card-text {
+  color: black;
+  text-align: left;
+}
+
 [className*="col-"] {
   float: none;
   display: table-cell;

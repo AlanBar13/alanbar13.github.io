@@ -32,6 +32,7 @@ class Main extends React.Component {
           </div>
 
           <div className="row justify-content-center main-list">
+            <h4>Areas de Interes:</h4>
             <ul className="list-group" style={{ color: "#173d85" }}>
               <li className="list-group-item">Sistemas Embebidos</li>
               <li className="list-group-item">Desarrollo Web</li>

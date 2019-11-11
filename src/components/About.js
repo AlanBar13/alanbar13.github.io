@@ -49,7 +49,7 @@ const About = () => {
           Udemy obteniendo un certificado de finalizacion del curso.
         </li>
         <li className="list-group-item">
-          Curso: Moder Web Development with React and Redux [2019 Upate] (En
+          Curso: Modern Web Development with React and Redux [2019 Upate] (En
           Curso), Udemy obteniendo un certificado de finalizacion del curso
         </li>
         <li className="list-group-item">
