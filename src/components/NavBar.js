@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 //Redux
 import { connect } from "react-redux";
-import { isHidden } from "../actions";
+import { isHidden, lanSelect } from "../actions";
 
 class NavBar extends React.Component {
   componentDidMount() {
@@ -20,6 +20,15 @@ class NavBar extends React.Component {
   }
   render() {
     let ham = this.hiddenHam();
+    const language = this.props.language;
+    var esActive, enActive;
+    if (language === "ES") {
+      esActive = "active";
+      enActive = "";
+    } else {
+      esActive = "";
+      enActive = "active";
+    }
     return (
       <div>
         <div className={`py-4 px-3 hamburger ${ham}`}>
@@ -33,6 +42,23 @@ class NavBar extends React.Component {
           className={`vertical-nav bg-white ${this.props.mobile.hidden}`}
           id="sidebar"
         >
+          <div className="buttons">
+            <button
+              className={`btn btn-outline-dark ${esActive}`}
+              type="button"
+              onClick={() => this.props.lanSelect("ES")}
+            >
+              ES
+            </button>
+            |
+            <button
+              type="button"
+              className={`btn btn-outline-dark ${enActive}`}
+              onClick={() => this.props.lanSelect("EN")}
+            >
+              EN
+            </button>
+          </div>
           <div className="py-4 px-3 mb-4 bg-light">
             <div className="media d-flex align-items-center">
               <Link to="/">
@@ -89,7 +115,7 @@ class NavBar extends React.Component {
           <p className="text-gray font-weight-bold text-uppercase px-3 py-4 small pb-4 mb-0">
             CONTACTO
           </p>
-          <div className="mb-4 bg-white info">
+          <div className="bg-white info">
             <ul className="nav flex-column bg-white mb-5">
               <li
                 className="nav-item"
@@ -146,11 +172,9 @@ class NavBar extends React.Component {
 const mapStateToProps = state => {
   return {
     window: state.window,
-    mobile: state.mobile
+    mobile: state.mobile,
+    language: state.language
   };
 };
 
-export default connect(
-  mapStateToProps,
-  { isHidden }
-)(NavBar);
+export default connect(mapStateToProps, { isHidden, lanSelect })(NavBar);

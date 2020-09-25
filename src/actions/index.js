@@ -19,3 +19,7 @@ export const isMobile = width => dispatch => {
 export const isHidden = param => dispatch => {
   dispatch({ type: "IS_HIDDEN", payload: param });
 };
+
+export const lanSelect = lan => dispatch => {
+  dispatch({ type: "LAN_SELECT", payload: lan });
+};

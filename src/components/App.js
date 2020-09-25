@@ -67,7 +67,4 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(
-  mapStateToProps,
-  { getWidth, isMobile, isHidden }
-)(App);
+export default connect(mapStateToProps, { getWidth, isMobile, isHidden })(App);
