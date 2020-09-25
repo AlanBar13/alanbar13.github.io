@@ -20,35 +20,38 @@ class About extends React.Component {
             </thead>
             <tbody>
               <tr className="row m-0">
-                <td className="col-4">C (intermedio)</td>
-                <td className="col-4">Node.js, JSX, Javascript</td>
+                <td className="col-4">C</td>
+                <td className="col-4">HTML, Javascript, CSS</td>
                 <td className="col-4">GitHub</td>
               </tr>
               <tr className="row m-0">
-                <td className="col-4">VHDL(intermedio)</td>
+                <td className="col-4">Python</td>
+                <td className="col-4">Node.js</td>
+                <td className="col-4">Android SDK / iOS</td>
+              </tr>
+              <tr className="row m-0">
+                <td className="col-4">Java</td>
+                <td className="col-4">SQL / MySQL / MongoDB</td>
+                <td className="col-4">Docker</td>
+              </tr>
+              <tr className="row m-0">
+                <td className="col-4">Shell</td>
                 <td className="col-4">PHP</td>
-                <td className="col-4">Labview</td>
-              </tr>
-              <tr className="row m-0">
-                <td className="col-4">C++ (intermedio)</td>
-                <td className="col-4">SQL / MySQL</td>
-                <td className="col-4">Android SDK y Xamarin</td>
-              </tr>
-              <tr className="row m-0">
-                <td className="col-4">Python (básico)</td>
-                <td className="col-4">ASP / ASP.NET</td>
-                <td className="col-4">Azure / AWS</td>
+                <td className="col-4">AWS</td>
               </tr>
             </tbody>
           </table>
           <h3>Courses and Trainings</h3>
           <ul
             className="list-group"
-            style={{ color: "#173d85", textAlign: "start" }}
-          >
+            style={{ color: "#173d85", textAlign: "start" }}>
             <li className="list-group-item">
-              Course: Modern Web Development with React and Redux [2019 Upate]
-              (In Progress), (Udemy)
+              Curso: iOS 13 & Swift 5 - The Complete iOS App Development
+              Bootcamp (In progress),(Udemy)
+            </li>
+            <li className="list-group-item">
+              Course: Modern Web Development with React and Redux [2019 Upate],
+              (Udemy)
             </li>
             <li className="list-group-item">
               Course: 20703-1 Administering System Center Configuration Manager,
@@ -82,35 +85,38 @@ class About extends React.Component {
             </thead>
             <tbody>
               <tr className="row m-0">
-                <td className="col-4">C (intermedio)</td>
-                <td className="col-4">Node.js, JSX, Javascript</td>
+                <td className="col-4">C</td>
+                <td className="col-4">HTML, Javascript, CSS</td>
                 <td className="col-4">GitHub</td>
               </tr>
               <tr className="row m-0">
-                <td className="col-4">VHDL(intermedio)</td>
+                <td className="col-4">Python</td>
+                <td className="col-4">Node.js</td>
+                <td className="col-4">Android SDK / iOS</td>
+              </tr>
+              <tr className="row m-0">
+                <td className="col-4">Java</td>
+                <td className="col-4">SQL / MySQL / MongoDB</td>
+                <td className="col-4">Docker</td>
+              </tr>
+              <tr className="row m-0">
+                <td className="col-4">Shell</td>
                 <td className="col-4">PHP</td>
-                <td className="col-4">Labview</td>
-              </tr>
-              <tr className="row m-0">
-                <td className="col-4">C++ (intermedio)</td>
-                <td className="col-4">SQL / MySQL</td>
-                <td className="col-4">Android SDK y Xamarin</td>
-              </tr>
-              <tr className="row m-0">
-                <td className="col-4">Python (básico)</td>
-                <td className="col-4">ASP / ASP.NET</td>
-                <td className="col-4">Azure / AWS</td>
+                <td className="col-4">AWS</td>
               </tr>
             </tbody>
           </table>
           <h3>Cursos y Certificaciones</h3>
           <ul
             className="list-group"
-            style={{ color: "#173d85", textAlign: "start" }}
-          >
+            style={{ color: "#173d85", textAlign: "start" }}>
+            <li className="list-group-item">
+              Curso: iOS 13 & Swift 5 - The Complete iOS App Development
+              Bootcamp (In progress),(Udemy)
+            </li>
             <li className="list-group-item">
               Curso: Modern Web Development with React and Redux [2019 Upate]
-              (En Curso), (Udemy)
+              (Udemy)
             </li>
             <li className="list-group-item">
               Curso: 20703-1 Administering System Center Configuration Manager,
@@ -134,9 +140,9 @@ class About extends React.Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    language: state.language
+    language: state.language,
   };
 };
 

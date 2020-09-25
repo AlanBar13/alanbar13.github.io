@@ -37,7 +37,18 @@ class Formation extends React.Component {
           <table className="table">
             <tbody>
               <tr style={{ textAlign: "start" }}>
-                <td>2017(Ene- )</td>
+                <td>2020(Mar- )</td>
+                <td>
+                  <strong>
+                    Site Reliability Engineer (Huawei Latinoamerica)
+                  </strong>
+                  <br /> Support to the Huawei Cloud Businness on the Storage
+                  Technology, using technology of openstack, shell and python
+                  scripting
+                </td>
+              </tr>
+              <tr style={{ textAlign: "start" }}>
+                <td>2017-2020</td>
                 <td>
                   <strong>IT Specialist (Tecnológico de Monterrey)</strong>
                   <br /> Development, maintenance and support to official
@@ -46,7 +57,7 @@ class Formation extends React.Component {
                 </td>
               </tr>
               <tr style={{ textAlign: "start" }}>
-                <td>2016(Sep- Ene)</td>
+                <td>2016(Sep- Dic)</td>
                 <td>
                   <strong>IT Assistant (Tecnológico de Monterrey)</strong>
                   <br /> Technical support of audiovisual equipment, dealing
@@ -109,7 +120,18 @@ class Formation extends React.Component {
           <table className="table">
             <tbody>
               <tr style={{ textAlign: "start" }}>
-                <td>2017(Ene- )</td>
+                <td>2020(Mar- )</td>
+                <td>
+                  <strong>
+                    Site Reliability Engineer (Huawei Latinoamerica)
+                  </strong>
+                  <br />
+                  Soporte a la tecnología de Storage de Huawei Cloud, usando
+                  tecnología como openstack, shell y python scripting.
+                </td>
+              </tr>
+              <tr style={{ textAlign: "start" }}>
+                <td>2017-2020</td>
                 <td>
                   <strong>
                     Especialista en Gestión de Tecnologías de Información
@@ -121,7 +143,7 @@ class Formation extends React.Component {
                 </td>
               </tr>
               <tr style={{ textAlign: "start" }}>
-                <td>2016(Sep- Ene)</td>
+                <td>2016(Sep- Dic)</td>
                 <td>
                   <strong>
                     Auxiliar en Gestión de Tecnologías de Información
@@ -164,9 +186,9 @@ class Formation extends React.Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    language: state.language
+    language: state.language,
   };
 };
 

@@ -18,7 +18,7 @@ class Projects extends React.Component {
                     Development of web application for Tecnologico de Monterrey
                   </h5>
                   <h6 className="card-subtitle mb-2 text-muted">
-                    2017(Ago-Sep)
+                    2017(Aug-Sep)
                   </h6>
                   <p className="card-text">
                     Project: Development of registration website for the
@@ -35,7 +35,7 @@ class Projects extends React.Component {
                     Collaboration in the development of a mobile aplication
                   </h5>
                   <h6 className="card-subtitle mb-2 text-muted">
-                    2017(Ago-Dic)
+                    2017(Aug-Dic)
                   </h6>
                   <p className="card-text">
                     Project: Working in collaboration with the company Zeldatec.
@@ -53,12 +53,13 @@ class Projects extends React.Component {
                     Tecnologico de Monterrey
                   </h5>
                   <h6 className="card-subtitle mb-2 text-muted">
-                    2018(Ene-Abr)
+                    2018(Jan-Apr)
                   </h6>
                   <p className="card-text">
                     Project: Using the technology of Jquery Mobile, an
                     application is being developed to promote the services of
-                    the IT area, such as the software in agreement.
+                    the IT area, such as the software in agreement.{" "}
+                    <a href="http://qro0056.qro.itesm.mx:8080/buso/">Link</a>
                   </p>
                 </div>
               </div>
@@ -69,27 +70,15 @@ class Projects extends React.Component {
               <div className="card card-text h-100" style={{ width: "18rem" }}>
                 <div className="card-body">
                   <h5 className="card-title">
-                    Website development and monitoring of advertising campaign
-                    for INEM company
-                  </h5>
-                  <h6 className="card-subtitle mb-2 text-muted">En curso</h6>
-                  <p className="card-text">
-                    Project: Website design (technology used React) and initial
-                    advertising campaign for the company INEM
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm">
-              <div className="card card-text h-100" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title">
                     BuSo page update for Tec de Monterrey
                   </h5>
-                  <h6 className="card-subtitle mb-2 text-muted">En curso</h6>
+                  <h6 className="card-subtitle mb-2 text-muted">
+                    2020 (Jan-Mar)
+                  </h6>
                   <p className="card-text">
                     Project: Development of the BuSo page update, where modern
-                    web development tools such as React and Redux were used.
+                    web development tools such as React and Redux were used.{" "}
+                    <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a>
                   </p>
                 </div>
               </div>
@@ -99,11 +88,29 @@ class Projects extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title">
                     Creation and development of vendor management application
+                    (Verkauf)
                   </h5>
-                  <h6 className="card-subtitle mb-2 text-muted">En curso</h6>
+                  <h6 className="card-subtitle mb-2 text-muted">
+                    2020 (Jan-Apr)
+                  </h6>
                   <p className="card-text">
                     Project: Initial design of platform for sellers of the
-                    company FSCA SA. Technology to use React, Redux and SQL
+                    company FSCA SA. Technology to use React, Redux and MongoDB.{" "}
+                    <a href="https://verkaff.com/">Link</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm">
+              <div className="card card-text h-100" style={{ width: "18rem" }}>
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Platform development for Deparments/Condos (Own Project)
+                  </h5>
+                  <h6 className="card-subtitle mb-2 text-muted">In Progress</h6>
+                  <p className="card-text">
+                    Project: App and Platform for management of
+                    Deparments/Condos
                   </p>
                 </div>
               </div>
@@ -164,7 +171,8 @@ class Projects extends React.Component {
                   <p className="card-text">
                     Proyecto: Utilizando la tecnologia de Jquery Mobile, se esta
                     desarrollando una aplicación para promover los servicios del
-                    area de TI, como son el software en convenio.
+                    area de TI, como son el software en convenio.{" "}
+                    <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a>
                   </p>
                 </div>
               </div>
@@ -175,28 +183,14 @@ class Projects extends React.Component {
               <div className="card card-text h-100" style={{ width: "18rem" }}>
                 <div className="card-body">
                   <h5 className="card-title">
-                    Desarrollo de pagina web y seguimiento de campaña de
-                    publicidad para empresa INEM
-                  </h5>
-                  <h6 className="card-subtitle mb-2 text-muted">En curso</h6>
-                  <p className="card-text">
-                    Proyecto: Diseño de pagina web (tecnología utilizada React)
-                    y campaña de publicidad inicial para la empresa INEM
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm">
-              <div className="card card-text h-100" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title">
                     Actualización de pagina BuSo para el Tec de Monterrey
                   </h5>
                   <h6 className="card-subtitle mb-2 text-muted">En curso</h6>
                   <p className="card-text">
                     Proyecto: Desarrollo de la actualización de la pagina de
                     BuSo, en donde se utilizaron herramientas de desarrollo web
-                    modernas como es React y Redux.
+                    modernas como es React y Redux.{" "}
+                    <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a>
                   </p>
                 </div>
               </div>
@@ -207,10 +201,27 @@ class Projects extends React.Component {
                   <h5 className="card-title">
                     Creación y desarrollo de aplicación de manejo de vendedores
                   </h5>
-                  <h6 className="card-subtitle mb-2 text-muted">En curso</h6>
+                  <h6 className="card-subtitle mb-2 text-muted">
+                    2020 (Ene-Abr)
+                  </h6>
                   <p className="card-text">
                     Proyecto: Diseño inicial de plataforma para vendedores de la
-                    empresa FSCA SA. Tecnología a utilizar React, Redux y SQL
+                    empresa FSCA SA. Tecnología a utilizar React, Redux y
+                    MongoDB. <a href="https://verkaff.com/">Link</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm">
+              <div className="card card-text h-100" style={{ width: "18rem" }}>
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Plataforma para manejo de Condominio/Departamentos
+                  </h5>
+                  <h6 className="card-subtitle mb-2 text-muted">En curso</h6>
+                  <p className="card-text">
+                    Proyecto: Aplicación y plataforma para el manejo de los
+                    recursos de un Condominio o Departamentos
                   </p>
                 </div>
               </div>
@@ -222,9 +233,9 @@ class Projects extends React.Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    language: state.language
+    language: state.language,
   };
 };
 
