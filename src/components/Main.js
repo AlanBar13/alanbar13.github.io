@@ -77,7 +77,7 @@ class Main extends React.Component {
               <div className="col-6">
                 <h4>Areas of interest:</h4>
                 <ul className="list-group" style={{ color: "#173d85" }}>
-                  <li className="list-group-item">Embedded Systems</li>
+                  <li className="list-group-item">DevOps</li>
                   <li className="list-group-item">Web Develpment</li>
                   <li className="list-group-item">Musical Production</li>
                 </ul>
@@ -115,7 +115,7 @@ class Main extends React.Component {
             <div className="row justify-content-center main-list">
               <h4>Areas de Interes:</h4>
               <ul className="list-group" style={{ color: "#173d85" }}>
-                <li className="list-group-item">Sistemas Embebidos</li>
+                <li className="list-group-item">DevOps</li>
                 <li className="list-group-item">Desarrollo Web</li>
                 <li className="list-group-item">Producción musical</li>
               </ul>
@@ -159,7 +159,7 @@ class Main extends React.Component {
               <div className="col-6">
                 <h4>Areas de Interes:</h4>
                 <ul className="list-group" style={{ color: "#173d85" }}>
-                  <li className="list-group-item">Sistemas Embebidos</li>
+                  <li className="list-group-item">DevOps</li>
                   <li className="list-group-item">Desarrollo Web</li>
                   <li className="list-group-item">Producción musical</li>
                 </ul>
