@@ -102,7 +102,7 @@ class NavBar extends React.Component {
               <Link
                 to="/acerca"
                 className="nav-link text-dark font-italic bg-light">
-                {language === "EN" ? "About Me" : "Acerca de mi"}
+                {language === "EN" ? "Skills" : "Habilidades"}
               </Link>
             </li>
           </ul>

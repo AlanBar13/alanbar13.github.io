@@ -32,12 +32,12 @@ class About extends React.Component {
               <tr className="row m-0">
                 <td className="col-4">Java</td>
                 <td className="col-4">SQL / MySQL / MongoDB</td>
-                <td className="col-4">Docker</td>
+                <td className="col-4">Cloud Platforms (Huawei Cloud, AWS)</td>
               </tr>
               <tr className="row m-0">
                 <td className="col-4">Shell</td>
                 <td className="col-4">PHP</td>
-                <td className="col-4">AWS</td>
+                <td className="col-4">Docker (Basic knowledge)</td>
               </tr>
             </tbody>
           </table>
@@ -80,14 +80,14 @@ class About extends React.Component {
               <tr className="row m-0">
                 <th className="col-4">Lenguajes de Programación:</th>
                 <th className="col-4">Orientadas a desarrollo web:</th>
-                <th className="col-4">Manejo de Software como:</th>
+                <th className="col-4">Trabajado con:</th>
               </tr>
             </thead>
             <tbody>
               <tr className="row m-0">
                 <td className="col-4">C</td>
                 <td className="col-4">HTML, Javascript, CSS</td>
-                <td className="col-4">GitHub</td>
+                <td className="col-4">Git</td>
               </tr>
               <tr className="row m-0">
                 <td className="col-4">Python</td>
@@ -97,12 +97,12 @@ class About extends React.Component {
               <tr className="row m-0">
                 <td className="col-4">Java</td>
                 <td className="col-4">SQL / MySQL / MongoDB</td>
-                <td className="col-4">Docker</td>
+                <td className="col-4">Cloud Platforms (Huawei Cloud, AWS)</td>
               </tr>
               <tr className="row m-0">
                 <td className="col-4">Shell</td>
-                <td className="col-4">PHP</td>
-                <td className="col-4">AWS</td>
+                <td className="col-4">React.js</td>
+                <td className="col-4">Docker (Conocimiento basico)</td>
               </tr>
             </tbody>
           </table>

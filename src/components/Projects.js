@@ -59,7 +59,7 @@ class Projects extends React.Component {
                     Project: Using the technology of Jquery Mobile, an
                     application is being developed to promote the services of
                     the IT area, such as the software in agreement.{" "}
-                    <a href="http://qro0056.qro.itesm.mx:8080/buso/">Link</a>
+                    {/* <a href="http://qro0056.qro.itesm.mx:8080/buso/">Link</a> */}
                   </p>
                 </div>
               </div>
@@ -78,7 +78,7 @@ class Projects extends React.Component {
                   <p className="card-text">
                     Project: Development of the BuSo page update, where modern
                     web development tools such as React and Redux were used.{" "}
-                    <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a>
+                    {/* <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a> */}
                   </p>
                 </div>
               </div>
@@ -95,8 +95,8 @@ class Projects extends React.Component {
                   </h6>
                   <p className="card-text">
                     Project: Initial design of platform for sellers of the
-                    company FSCA SA. Technology to use React, Redux and MongoDB.{" "}
-                    <a href="https://verkaff.com/">Link</a>
+                    company FSAC SA. Technology to use React, Redux and MongoDB.{" "}
+                    {/* <a href="https://verkaff.com/">Link</a> */}
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ class Projects extends React.Component {
                     Proyecto: Utilizando la tecnologia de Jquery Mobile, se esta
                     desarrollando una aplicación para promover los servicios del
                     area de TI, como son el software en convenio.{" "}
-                    <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a>
+                    {/* <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a> */}
                   </p>
                 </div>
               </div>
@@ -185,12 +185,12 @@ class Projects extends React.Component {
                   <h5 className="card-title">
                     Actualización de pagina BuSo para el Tec de Monterrey
                   </h5>
-                  <h6 className="card-subtitle mb-2 text-muted">En curso</h6>
+                  <h6 className="card-subtitle mb-2 text-muted">2020 (Ene-May)</h6>
                   <p className="card-text">
                     Proyecto: Desarrollo de la actualización de la pagina de
                     BuSo, en donde se utilizaron herramientas de desarrollo web
                     modernas como es React y Redux.{" "}
-                    <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a>
+                    {/* <a href="http://qro0056.qro.itesm.mx/buso_test/">Link</a> */}
                   </p>
                 </div>
               </div>
@@ -206,9 +206,10 @@ class Projects extends React.Component {
                   </h6>
                   <p className="card-text">
                     Proyecto: Diseño inicial de plataforma para vendedores de la
-                    empresa FSCA SA. Tecnología a utilizar React, Redux y
-                    MongoDB. <a href="https://verkaff.com/">Link</a>
+                    empresa FSAC SA. Tecnología a utilizar React, Redux y
+                    MongoDB.
                   </p>
+                  {/* <a href="https://verkaff.com/">Link</a> */}
                 </div>
               </div>
             </div>
