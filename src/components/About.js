@@ -32,7 +32,7 @@ class About extends React.Component {
               <tr className="row m-0">
                 <td className="col-4">Java</td>
                 <td className="col-4">SQL / MySQL / MongoDB</td>
-                <td className="col-4">Cloud Platforms (Huawei Cloud, AWS)</td>
+                <td className="col-4">Cloud Platforms (Huawei Cloud, DigitalOcean)</td>
               </tr>
               <tr className="row m-0">
                 <td className="col-4">Shell</td>
@@ -97,7 +97,7 @@ class About extends React.Component {
               <tr className="row m-0">
                 <td className="col-4">Java</td>
                 <td className="col-4">SQL / MySQL / MongoDB</td>
-                <td className="col-4">Cloud Platforms (Huawei Cloud, AWS)</td>
+                <td className="col-4">Cloud Platforms (Huawei Cloud, DigitalOcean)</td>
               </tr>
               <tr className="row m-0">
                 <td className="col-4">Shell</td>
