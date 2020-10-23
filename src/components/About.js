@@ -15,7 +15,7 @@ class About extends React.Component {
               <tr className="row m-0">
                 <th className="col-4">Programming languages:</th>
                 <th className="col-4">Web development Oriented:</th>
-                <th className="col-4">Software Knowledge of:</th>
+                <th className="col-4">Worked with:</th>
               </tr>
             </thead>
             <tbody>
