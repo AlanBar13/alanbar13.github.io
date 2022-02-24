@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alanbar13.github.io/static/css/main.ef911356.css",
+    "main.js": "/alanbar13.github.io/static/js/main.c9b7f9b0.js",
+    "index.html": "/alanbar13.github.io/index.html",
+    "main.ef911356.css.map": "/alanbar13.github.io/static/css/main.ef911356.css.map",
+    "main.c9b7f9b0.js.map": "/alanbar13.github.io/static/js/main.c9b7f9b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef911356.css",
+    "static/js/main.c9b7f9b0.js"
+  ]
+}
